@@ -1,0 +1,16 @@
+import express from "express";
+import cors from "cors";
+import queryRoutes from "./routes/query.routes.js";
+
+const app = express();
+
+app.use(cors());
+app.use(express.json()); // 🔴 THIS LINE IS REQUIRED
+
+app.use("/api/query", queryRoutes);
+
+app.get("/", (req, res) => {
+  res.send("CipherSQLStudio API running");
+});
+
+export default app;

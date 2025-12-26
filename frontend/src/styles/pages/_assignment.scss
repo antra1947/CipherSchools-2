@@ -1,0 +1,15 @@
+.assignment {
+  padding: $padding-mobile;
+
+  button {
+    margin-top: 1rem;
+    background: $primary-color;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: none;
+  }
+
+  @include tablet {
+    padding: $padding-desktop;
+  }
+}

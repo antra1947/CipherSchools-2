@@ -1,0 +1,14 @@
+User clicks Execute
+↓
+React sends POST request
+↓
+Express receives request
+↓
+Query validation
+↓
+PostgreSQL executes
+↓
+Results returned
+↓
+UI updates table
+
