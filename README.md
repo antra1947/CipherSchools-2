@@ -23,3 +23,22 @@ CipherSQLStudio is a browser-based SQL learning platform where users can practic
 cd backend
 npm install
 npm run dev
+
+Create .env file using .env.example.
+
+Frontend
+cd frontend
+npm install
+npm start
+Open browser at:
+
+http://localhost:3000
+How to Test
+Select an assignment
+
+Enter:
+
+SELECT * FROM students;
+Click Execute
+
+View results in table
